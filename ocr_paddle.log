@@ -1,0 +1,144 @@
+/Users/edmondfan/Library/Python/3.9/lib/python/site-packages/paddle/utils/cpp_extension/extension_utils.py:712: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+Initializing PaddleOCR (first run will download models)...
+Found 69 scanned PDFs to OCR with PaddleOCR.
+OCR: 预备一级知识锦囊L1.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/预备一级知识锦囊L1.md
+OCR: 预备一级知识锦囊L2.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/预备一级知识锦囊L2.md
+OCR: 预备一级知识锦囊L3.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/预备一级知识锦囊L3.md
+OCR: 预备一级知识锦囊L4.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/预备一级知识锦囊L4.md
+OCR: 01_2B 秋季 知识锦囊整合.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/01_2B_秋季_知识锦囊整合.md
+OCR: 2B 秋季 L1 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L1_知识锦囊.md
+OCR: 2B 秋季 L10 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L10_知识锦囊.md
+OCR: 2B 秋季 L11 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L11_知识锦囊.md
+OCR: 2B 秋季 L12 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L12_知识锦囊.md
+OCR: 2B 秋季 L13 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L13_知识锦囊.md
+OCR: 2B 秋季 L14 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L14_知识锦囊.md
+OCR: 2B 秋季 L15 知识锦囊 .pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L15_知识锦囊_.md
+OCR: 2B 秋季 L16 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L16_知识锦囊.md
+OCR: 2B 秋季 L17 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L17_知识锦囊.md
+OCR: 2B 秋季 L2 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L2_知识锦囊.md
+OCR: 2B 秋季 L3 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L3_知识锦囊.md
+OCR: 2B 秋季 L4 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L4_知识锦囊.md
+OCR: 2B 秋季 L5 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L5_知识锦囊.md
+OCR: 2B 秋季 L6 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L6_知识锦囊.md
+OCR: 2B 秋季 L7 知识锦囊 .pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L7_知识锦囊_.md
+OCR: 2B 秋季 L8 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L8_知识锦囊.md
+OCR: 2B 秋季 L9 知识锦囊 .pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_秋季_L9_知识锦囊_.md
+OCR: 冬季2B默写表.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/冬季2B默写表.md
+OCR: 2B冬L1助力包(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L1助力包(学生版).md
+OCR: 2B冬L1助力包(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L1助力包(教师版).md
+OCR: 2B冬L2助力包(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L2助力包(学生版).md
+OCR: 2B冬L2助力包(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L2助力包(教师版).md
+OCR: 2B冬L3助力包(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L3助力包(学生版).md
+OCR: 2B冬L3助力包(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L3助力包(教师版).md
+OCR: 2B冬L4助力包(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L4助力包(学生版).md
+OCR: 2B冬L4助力包(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L4助力包(教师版).md
+OCR: 2B冬L5助力包(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L5助力包(学生版).md
+OCR: 2B冬L5助力包(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L5助力包(教师版).md
+OCR: 2B冬L6助力包(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L6助力包(学生版).md
+OCR: 2B冬L6助力包(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L6助力包(教师版).md
+OCR: 2B冬L7助力包(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L7助力包(学生版).md
+OCR: 2B冬L7助力包(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬L7助力包(教师版).md
+OCR: 2B冬季阶段测评(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬季阶段测评(学生版).md
+OCR: 2B冬季阶段测评(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B冬季阶段测评(教师版).md
+OCR: 2B 冬季 L1 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_冬季_L1_知识锦囊.md
+OCR: 2B 冬季 L2 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_冬季_L2_知识锦囊.md
+OCR: 2B 冬季 L3 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_冬季_L3_知识锦囊.md
+OCR: 2B 冬季 L5 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_冬季_L5_知识锦囊.md
+OCR: 2B 冬季 L6 知识锦囊.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2B_冬季_L6_知识锦囊.md
+OCR: 2AB春季月度测评（三）(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2AB春季月度测评（三）(学生版).md
+OCR: 2AB春季月度测评（三）(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2AB春季月度测评（三）(教师版).md
+OCR: 2AB春季月度测评（二）(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2AB春季月度测评（二）(学生版).md
+OCR: 2AB春季月度测评（二）(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/2AB春季月度测评（二）(教师版).md
+OCR: 【助力包】2AB_春季L1(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L1(学生版).md
+OCR: 【助力包】2AB_春季L11(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L11(学生版).md
+OCR: 【助力包】2AB_春季L12(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L12(学生版).md
+OCR: 【助力包】2AB_春季L13(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L13(学生版).md
+OCR: 【助力包】2AB_春季L14(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L14(学生版).md
+OCR: 【助力包】2AB_春季L16(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L16(学生版).md
+OCR: 【助力包】2AB_春季L17(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L17(学生版).md
+OCR: 【助力包】2AB_春季L2(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L2(学生版).md
+OCR: 【助力包】2AB_春季L3(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L3(学生版).md
+OCR: 【助力包】2AB_春季L4(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L4(学生版).md
+OCR: 【助力包】2AB_春季L5(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L5(学生版).md
+OCR: 【助力包】2AB_春季L6(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L6(学生版).md
+OCR: 【助力包】2AB_春季L7(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L7(学生版).md
+OCR: 【助力包】2AB_春季L8(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L8(学生版).md
+OCR: 【助力包】2AB_春季L9(学生版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/【助力包】2AB_春季L9(学生版).md
+OCR: 26夏_3B_词汇表.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/26夏_3B_词汇表.md
+OCR: 26夏_3B_阶段测评（一）-学生版.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/26夏_3B_阶段测评（一）-学生版.md
+OCR: 26夏_3B_阶段测评（二）-学生版.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/26夏_3B_阶段测评（二）-学生版.md
+OCR: 26夏_3B_默写表.pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/26夏_3B_默写表.md
+OCR: 3B阶段测评1(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/3B阶段测评1(教师版).md
+OCR: 3B阶段测评2(教师版).pdf
+  -> /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle/3B阶段测评2(教师版).md
+
+PaddleOCR output: /Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/ocr_content_paddle

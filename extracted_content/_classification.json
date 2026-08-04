@@ -1,0 +1,800 @@
+[
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/01_秋季/秋预备一级L6知识锦囊.pdf",
+    "relative": "01_一年级/01_秋季/秋预备一级L6知识锦囊.pdf",
+    "type": "text",
+    "filename": "秋预备一级L6知识锦囊.pdf",
+    "markdown": "extracted_content/01_一年级_01_秋季_秋预备一级L6知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/01_秋季/预备一级L1-4【知识精粹】.pdf",
+    "relative": "01_一年级/01_秋季/预备一级L1-4【知识精粹】.pdf",
+    "type": "text",
+    "filename": "预备一级L1-4【知识精粹】.pdf",
+    "markdown": "extracted_content/01_一年级_01_秋季_预备一级L1-4【知识精粹】.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/01_秋季/预备一级知识锦囊L1.pdf",
+    "relative": "01_一年级/01_秋季/预备一级知识锦囊L1.pdf",
+    "type": "scanned",
+    "filename": "预备一级知识锦囊L1.pdf",
+    "markdown": "extracted_content/01_一年级_01_秋季_预备一级知识锦囊L1.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/01_秋季/预备一级知识锦囊L2.pdf",
+    "relative": "01_一年级/01_秋季/预备一级知识锦囊L2.pdf",
+    "type": "scanned",
+    "filename": "预备一级知识锦囊L2.pdf",
+    "markdown": "extracted_content/01_一年级_01_秋季_预备一级知识锦囊L2.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/01_秋季/预备一级知识锦囊L3.pdf",
+    "relative": "01_一年级/01_秋季/预备一级知识锦囊L3.pdf",
+    "type": "scanned",
+    "filename": "预备一级知识锦囊L3.pdf",
+    "markdown": "extracted_content/01_一年级_01_秋季_预备一级知识锦囊L3.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/01_秋季/预备一级知识锦囊L4.pdf",
+    "relative": "01_一年级/01_秋季/预备一级知识锦囊L4.pdf",
+    "type": "scanned",
+    "filename": "预备一级知识锦囊L4.pdf",
+    "markdown": "extracted_content/01_一年级_01_秋季_预备一级知识锦囊L4.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/04_夏季/2B夏季12讲知识锦囊整合.pdf",
+    "relative": "01_一年级/04_夏季/2B夏季12讲知识锦囊整合.pdf",
+    "type": "text",
+    "filename": "2B夏季12讲知识锦囊整合.pdf",
+    "markdown": "extracted_content/01_一年级_04_夏季_2B夏季12讲知识锦囊整合.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/01_一年级/一年级 知识锦囊合集.pdf",
+    "relative": "01_一年级/一年级 知识锦囊合集.pdf",
+    "type": "text",
+    "filename": "一年级 知识锦囊合集.pdf",
+    "markdown": "extracted_content/01_一年级_一年级_知识锦囊合集.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/02_二年级/01_预备二级秋季知识锦囊整合pdf.pdf",
+    "relative": "02_二年级/01_预备二级秋季知识锦囊整合pdf.pdf",
+    "type": "text",
+    "filename": "01_预备二级秋季知识锦囊整合pdf.pdf",
+    "markdown": "extracted_content/02_二年级_01_预备二级秋季知识锦囊整合pdf.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/02_二年级/02_预备二级冬季知识锦囊整合.pdf",
+    "relative": "02_二年级/02_预备二级冬季知识锦囊整合.pdf",
+    "type": "text",
+    "filename": "02_预备二级冬季知识锦囊整合.pdf",
+    "markdown": "extracted_content/02_二年级_02_预备二级冬季知识锦囊整合.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/02_二年级/03_预备二级春季知识锦囊整合.pdf",
+    "relative": "02_二年级/03_预备二级春季知识锦囊整合.pdf",
+    "type": "text",
+    "filename": "03_预备二级春季知识锦囊整合.pdf",
+    "markdown": "extracted_content/02_二年级_03_预备二级春季知识锦囊整合.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/02_二年级/04_预备二级夏季知识锦囊整合.pdf",
+    "relative": "02_二年级/04_预备二级夏季知识锦囊整合.pdf",
+    "type": "text",
+    "filename": "04_预备二级夏季知识锦囊整合.pdf",
+    "markdown": "extracted_content/02_二年级_04_预备二级夏季知识锦囊整合.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/02_二年级/二年级 知识锦囊合集.pdf",
+    "relative": "02_二年级/二年级 知识锦囊合集.pdf",
+    "type": "text",
+    "filename": "二年级 知识锦囊合集.pdf",
+    "markdown": "extracted_content/02_二年级_二年级_知识锦囊合集.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/01_2B 秋季 知识锦囊整合.pdf",
+    "relative": "03_三年级/01_秋季/01_2B 秋季 知识锦囊整合.pdf",
+    "type": "scanned",
+    "filename": "01_2B 秋季 知识锦囊整合.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_01_2B_秋季_知识锦囊整合.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L1 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L1 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L1 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L1_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L10 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L10 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L10 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L10_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L11 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L11 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L11 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L11_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L12 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L12 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L12 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L12_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L13 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L13 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L13 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L13_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L14 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L14 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L14 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L14_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L15 知识锦囊 .pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L15 知识锦囊 .pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L15 知识锦囊 .pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L15_知识锦囊_.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L16 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L16 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L16 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L16_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L17 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L17 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L17 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L17_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L2 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L2 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L2 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L2_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L3 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L3 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L3 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L3_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L4 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L4 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L4 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L4_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L5 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L5 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L5 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L5_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L6 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L6 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L6 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L6_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L7 知识锦囊 .pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L7 知识锦囊 .pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L7 知识锦囊 .pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L7_知识锦囊_.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L8 知识锦囊.pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L8 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L8 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L8_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/01_秋季/2B 秋季 L9 知识锦囊 .pdf",
+    "relative": "03_三年级/01_秋季/2B 秋季 L9 知识锦囊 .pdf",
+    "type": "scanned",
+    "filename": "2B 秋季 L9 知识锦囊 .pdf",
+    "markdown": "extracted_content/03_三年级_01_秋季_2B_秋季_L9_知识锦囊_.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/不规则动词表.pdf",
+    "relative": "03_三年级/02_冬季/不规则动词表.pdf",
+    "type": "text",
+    "filename": "不规则动词表.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_不规则动词表.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/冬季2B默写表.pdf",
+    "relative": "03_三年级/02_冬季/冬季2B默写表.pdf",
+    "type": "scanned",
+    "filename": "冬季2B默写表.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_冬季2B默写表.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L1助力包(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L1助力包(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L1助力包(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L1助力包(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L1助力包(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L1助力包(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L1助力包(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L1助力包(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L2助力包(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L2助力包(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L2助力包(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L2助力包(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L2助力包(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L2助力包(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L2助力包(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L2助力包(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L3助力包(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L3助力包(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L3助力包(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L3助力包(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L3助力包(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L3助力包(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L3助力包(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L3助力包(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L4助力包(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L4助力包(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L4助力包(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L4助力包(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L4助力包(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L4助力包(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L4助力包(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L4助力包(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L5助力包(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L5助力包(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L5助力包(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L5助力包(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L5助力包(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L5助力包(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L5助力包(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L5助力包(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L6助力包(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L6助力包(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L6助力包(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L6助力包(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L6助力包(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L6助力包(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L6助力包(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L6助力包(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L7助力包(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L7助力包(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L7助力包(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L7助力包(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬L7助力包(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬L7助力包(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬L7助力包(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬L7助力包(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬季阶段测评(学生版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬季阶段测评(学生版).pdf",
+    "type": "scanned",
+    "filename": "2B冬季阶段测评(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬季阶段测评(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/助力包/2B冬季阶段测评(教师版).pdf",
+    "relative": "03_三年级/02_冬季/助力包/2B冬季阶段测评(教师版).pdf",
+    "type": "scanned",
+    "filename": "2B冬季阶段测评(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_助力包_2B冬季阶段测评(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/知识锦囊/02_2B 冬季 知识锦囊整合.pdf",
+    "relative": "03_三年级/02_冬季/知识锦囊/02_2B 冬季 知识锦囊整合.pdf",
+    "type": "text",
+    "filename": "02_2B 冬季 知识锦囊整合.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_知识锦囊_02_2B_冬季_知识锦囊整合.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/知识锦囊/2B 冬季 L1 知识锦囊.pdf",
+    "relative": "03_三年级/02_冬季/知识锦囊/2B 冬季 L1 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 冬季 L1 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_知识锦囊_2B_冬季_L1_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/知识锦囊/2B 冬季 L2 知识锦囊.pdf",
+    "relative": "03_三年级/02_冬季/知识锦囊/2B 冬季 L2 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 冬季 L2 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_知识锦囊_2B_冬季_L2_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/知识锦囊/2B 冬季 L3 知识锦囊.pdf",
+    "relative": "03_三年级/02_冬季/知识锦囊/2B 冬季 L3 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 冬季 L3 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_知识锦囊_2B_冬季_L3_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/知识锦囊/2B 冬季 L4 知识锦囊.pdf",
+    "relative": "03_三年级/02_冬季/知识锦囊/2B 冬季 L4 知识锦囊.pdf",
+    "type": "text",
+    "filename": "2B 冬季 L4 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_知识锦囊_2B_冬季_L4_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/知识锦囊/2B 冬季 L5 知识锦囊.pdf",
+    "relative": "03_三年级/02_冬季/知识锦囊/2B 冬季 L5 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 冬季 L5 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_知识锦囊_2B_冬季_L5_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/02_冬季/知识锦囊/2B 冬季 L6 知识锦囊.pdf",
+    "relative": "03_三年级/02_冬季/知识锦囊/2B 冬季 L6 知识锦囊.pdf",
+    "type": "scanned",
+    "filename": "2B 冬季 L6 知识锦囊.pdf",
+    "markdown": "extracted_content/03_三年级_02_冬季_知识锦囊_2B_冬季_L6_知识锦囊.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L1.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L1.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L1.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L1.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L10.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L10.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L10.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L10.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L11.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L11.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L11.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L11.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L12.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L12.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L12.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L12.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L13.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L13.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L13.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L13.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L14.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L14.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L14.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L14.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L15.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L15.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L15.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L15.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L16.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L16.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L16.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L16.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L17.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L17.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L17.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L17.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L2.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L2.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L2.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L2.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L3.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L3.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L3.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L3.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L4.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L4.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L4.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L4.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L5.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L5.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L5.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L5.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L6.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L6.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L6.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L6.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L7.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L7.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L7.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L7.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L8.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L8.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L8.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L8.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L9.pdf",
+    "relative": "03_三年级/03_春季/2B 春季 知识锦囊/2B春季知识锦囊L9.pdf",
+    "type": "text",
+    "filename": "2B春季知识锦囊L9.pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_2B_春季_知识锦囊_2B春季知识锦囊L9.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/2AB春季月度测评（三）(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/2AB春季月度测评（三）(学生版).pdf",
+    "type": "scanned",
+    "filename": "2AB春季月度测评（三）(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_2AB春季月度测评（三）(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/2AB春季月度测评（三）(教师版).pdf",
+    "relative": "03_三年级/03_春季/助力包/2AB春季月度测评（三）(教师版).pdf",
+    "type": "scanned",
+    "filename": "2AB春季月度测评（三）(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_2AB春季月度测评（三）(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/2AB春季月度测评（二）(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/2AB春季月度测评（二）(学生版).pdf",
+    "type": "scanned",
+    "filename": "2AB春季月度测评（二）(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_2AB春季月度测评（二）(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/2AB春季月度测评（二）(教师版).pdf",
+    "relative": "03_三年级/03_春季/助力包/2AB春季月度测评（二）(教师版).pdf",
+    "type": "scanned",
+    "filename": "2AB春季月度测评（二）(教师版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_2AB春季月度测评（二）(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L1(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L1(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L1(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L1(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L11(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L11(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L11(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L11(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L12(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L12(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L12(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L12(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L13(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L13(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L13(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L13(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L14(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L14(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L14(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L14(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L16(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L16(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L16(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L16(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L17(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L17(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L17(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L17(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L2(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L2(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L2(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L2(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L3(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L3(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L3(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L3(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L4(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L4(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L4(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L4(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L5(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L5(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L5(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L5(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L6(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L6(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L6(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L6(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L7(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L7(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L7(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L7(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L8(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L8(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L8(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L8(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/03_三年级/03_春季/助力包/【助力包】2AB_春季L9(学生版).pdf",
+    "relative": "03_三年级/03_春季/助力包/【助力包】2AB_春季L9(学生版).pdf",
+    "type": "scanned",
+    "filename": "【助力包】2AB_春季L9(学生版).pdf",
+    "markdown": "extracted_content/03_三年级_03_春季_助力包_【助力包】2AB_春季L9(学生版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/26夏_3B_词汇表.pdf",
+    "relative": "04_四年级/01_夏季/26夏_3B_词汇表.pdf",
+    "type": "scanned",
+    "filename": "26夏_3B_词汇表.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_26夏_3B_词汇表.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/26夏_3B_阶段测评（一）-学生版.pdf",
+    "relative": "04_四年级/01_夏季/26夏_3B_阶段测评（一）-学生版.pdf",
+    "type": "scanned",
+    "filename": "26夏_3B_阶段测评（一）-学生版.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_26夏_3B_阶段测评（一）-学生版.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/26夏_3B_阶段测评（二）-学生版.pdf",
+    "relative": "04_四年级/01_夏季/26夏_3B_阶段测评（二）-学生版.pdf",
+    "type": "scanned",
+    "filename": "26夏_3B_阶段测评（二）-学生版.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_26夏_3B_阶段测评（二）-学生版.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/26夏_3B_默写表.pdf",
+    "relative": "04_四年级/01_夏季/26夏_3B_默写表.pdf",
+    "type": "scanned",
+    "filename": "26夏_3B_默写表.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_26夏_3B_默写表.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/3B阶段测评1(教师版).pdf",
+    "relative": "04_四年级/01_夏季/3B阶段测评1(教师版).pdf",
+    "type": "scanned",
+    "filename": "3B阶段测评1(教师版).pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_3B阶段测评1(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/3B阶段测评2(教师版).pdf",
+    "relative": "04_四年级/01_夏季/3B阶段测评2(教师版).pdf",
+    "type": "scanned",
+    "filename": "3B阶段测评2(教师版).pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_3B阶段测评2(教师版).md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U10知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U10知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U10知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U10知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U11知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U11知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U11知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U11知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U12知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U12知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U12知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U12知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U1知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U1知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U1知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U1知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U2知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U2知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U2知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U2知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U3知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U3知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U3知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U3知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U4知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U4知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U4知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U4知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U5知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U5知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U5知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U5知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U6知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U6知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U6知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U6知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U7知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U7知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U7知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U7知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U8知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U8知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U8知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U8知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/04_四年级/01_夏季/知识清单/3B夏季U9知识清单.pdf",
+    "relative": "04_四年级/01_夏季/知识清单/3B夏季U9知识清单.pdf",
+    "type": "text",
+    "filename": "3B夏季U9知识清单.pdf",
+    "markdown": "extracted_content/04_四年级_01_夏季_知识清单_3B夏季U9知识清单.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 1.pdf",
+    "relative": "Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 1.pdf",
+    "type": "text",
+    "filename": "LeDu English Review Week 1.pdf",
+    "markdown": "extracted_content/Gemini_复习资料及练习_一年级_&_二年级_PDF_for_printing_LeDu_English_Review_Week_1.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 2.pdf",
+    "relative": "Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 2.pdf",
+    "type": "text",
+    "filename": "LeDu English Review Week 2.pdf",
+    "markdown": "extracted_content/Gemini_复习资料及练习_一年级_&_二年级_PDF_for_printing_LeDu_English_Review_Week_2.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 3.pdf",
+    "relative": "Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 3.pdf",
+    "type": "text",
+    "filename": "LeDu English Review Week 3.pdf",
+    "markdown": "extracted_content/Gemini_复习资料及练习_一年级_&_二年级_PDF_for_printing_LeDu_English_Review_Week_3.md"
+  },
+  {
+    "path": "/Users/edmondfan/Documents/AI_SPACE/03_FANXINYE_ENGLISH/英语/Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 4.pdf",
+    "relative": "Gemini 复习资料及练习/一年级 & 二年级/PDF for printing/LeDu English Review Week 4.pdf",
+    "type": "text",
+    "filename": "LeDu English Review Week 4.pdf",
+    "markdown": "extracted_content/Gemini_复习资料及练习_一年级_&_二年级_PDF_for_printing_LeDu_English_Review_Week_4.md"
+  }
+]
