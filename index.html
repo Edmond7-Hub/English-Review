@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#4A90E2">
+    <title>乐读英语记忆曲线复习</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 启动页 -->
+        <div id="loading-screen" class="screen active">
+            <div class="mascot">🦁</div>
+            <h1>乐读英语</h1>
+            <p>记忆曲线复习</p>
+            <div class="loading-dots"><span></span><span></span><span></span></div>
+        </div>
+
+        <!-- 主界面 -->
+        <div id="main-screen" class="screen">
+            <header class="app-header">
+                <h1>乐读英语</h1>
+                <button id="settings-btn" class="icon-btn">⚙️</button>
+            </header>
+
+            <div class="daily-progress-card">
+                <div class="progress-ring">
+                    <svg viewBox="0 0 36 36">
+                        <path class="progress-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        <path id="progress-circle" class="progress-fill" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    </svg>
+                    <div class="progress-text">
+                        <span id="today-count">0</span>
+                        <small>/</small>
+                        <span id="today-total">0</span>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <p class="streak">🔥 连续打卡 <span id="streak-days">0</span> 天</p>
+                    <p id="today-status">今天还没有学习哦～</p>
+                </div>
+            </div>
+
+            <div class="action-grid">
+                <button id="start-study-btn" class="primary-btn">
+                    <span class="btn-icon">📚</span>
+                    <span>开始今日复习</span>
+                </button>
+                <button id="refresh-materials-btn" class="secondary-btn">
+                    <span class="btn-icon">🔄</span>
+                    <span>刷新素材</span>
+                </button>
+                <button id="mistakes-btn" class="secondary-btn">
+                    <span class="btn-icon">📝</span>
+                    <span>错题本</span>
+                </button>
+                <button id="stats-btn" class="secondary-btn">
+                    <span class="btn-icon">📊</span>
+                    <span>学习统计</span>
+                </button>
+                <button id="backup-btn" class="secondary-btn">
+                    <span class="btn-icon">💾</span>
+                    <span>备份数据</span>
+                </button>
+                <button id="restore-btn" class="secondary-btn">
+                    <span class="btn-icon">📥</span>
+                    <span>恢复数据</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 学习界面 -->
+        <div id="study-screen" class="screen">
+            <header class="study-header">
+                <button id="back-btn" class="icon-btn">←</button>
+                <div class="study-progress">
+                    <div class="study-progress-bar" id="study-progress-bar"></div>
+                </div>
+                <span id="study-counter">1 / 10</span>
+            </header>
+
+            <div id="question-card" class="question-card">
+                <!-- 题目内容将动态渲染 -->
+            </div>
+
+            <div id="feedback-panel" class="feedback-panel hidden">
+                <div class="feedback-icon"></div>
+                <p id="feedback-text"></p>
+                <p id="feedback-explanation" class="explanation"></p>
+                <button id="next-btn" class="primary-btn">下一题</button>
+            </div>
+        </div>
+
+        <!-- 设置界面 -->
+        <div id="settings-screen" class="screen">
+            <header class="app-header">
+                <button id="settings-back-btn" class="icon-btn">←</button>
+                <h1>设置</h1>
+            </header>
+            <div class="settings-list">
+                <div class="setting-item">
+                    <label>每日学习时长</label>
+                    <select id="daily-duration">
+                        <option value="20">20 分钟</option>
+                        <option value="35" selected>35 分钟</option>
+                        <option value="45">45 分钟</option>
+                        <option value="custom">自定义</option>
+                    </select>
+                    <input id="custom-duration" type="number" class="hidden" min="5" max="120" value="35">
+                </div>
+                <div class="setting-item">
+                    <label>每日新知识点上限</label>
+                    <input id="new-item-limit" type="number" min="1" max="50" value="10">
+                </div>
+                <div class="setting-item">
+                    <label>自动播放发音</label>
+                    <input id="auto-play" type="checkbox" checked>
+                </div>
+                <div class="setting-item">
+                    <label>发音口音</label>
+                    <select id="speech-voice">
+                        <option value="en-GB">英式英语</option>
+                        <option value="en-US">美式英语</option>
+                    </select>
+                </div>
+                <div class="setting-item">
+                    <label>语速</label>
+                    <input id="speech-rate" type="range" min="0.5" max="1.5" step="0.1" value="0.8">
+                    <span id="speech-rate-value">0.8</span>
+                </div>
+                <div class="setting-item">
+                    <label>连续答对移除错题</label>
+                    <input id="mastery-threshold" type="number" min="1" max="10" value="3">
+                </div>
+            </div>
+        </div>
+
+        <!-- 统计界面 -->
+        <div id="stats-screen" class="screen">
+            <header class="app-header">
+                <button id="stats-back-btn" class="icon-btn">←</button>
+                <h1>学习统计</h1>
+            </header>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-items">0</div>
+                    <div class="stat-label">总知识点</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="mastered-items">0</div>
+                    <div class="stat-label">已掌握</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="accuracy-rate">0%</div>
+                    <div class="stat-label">正确率</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="study-days">0</div>
+                    <div class="stat-label">学习天数</div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h3>正确率趋势</h3>
+                <canvas id="accuracy-chart" width="300" height="200"></canvas>
+            </div>
+        </div>
+
+        <!-- 错题本界面 -->
+        <div id="mistakes-screen" class="screen">
+            <header class="app-header">
+                <button id="mistakes-back-btn" class="icon-btn">←</button>
+                <h1>错题本</h1>
+            </header>
+            <div id="mistakes-list" class="mistakes-list">
+                <!-- 错题列表动态渲染 -->
+            </div>
+        </div>
+
+        <!-- 文件选择隐藏输入 -->
+        <input type="file" id="file-input" multiple accept=".md" class="hidden">
+        <input type="file" id="import-input" accept=".json" class="hidden">
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/parser.js"></script>
+    <script src="js/sm2.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/tts.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(() => {});
+        }
+    </script>
+</body>
+</html>

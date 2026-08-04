@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari 文件夹选择兼容性验证</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; padding: 20px; line-height: 1.6; }
+        .result { padding: 12px; margin: 12px 0; border-radius: 8px; background: #f0f0f0; }
+        .ok { color: green; }
+        .fail { color: red; }
+        button { padding: 12px 20px; margin: 8px 0; font-size: 16px; border-radius: 8px; border: 1px solid #ccc; background: #fff; }
+        pre { white-space: pre-wrap; background: #f8f8f8; padding: 10px; border-radius: 6px; }
+    </style>
+</head>
+<body>
+    <h1>Safari 文件夹选择兼容性验证</h1>
+    <p>请在 iPad Safari 中打开此页面，依次点击以下按钮。</p>
+    
+    <button id="check-api">1. 检测 showDirectoryPicker</button>
+    <div id="api-result" class="result"></div>
+    
+    <button id="try-picker">2. 尝试选择文件夹</button>
+    <div id="picker-result" class="result"></div>
+    
+    <button id="try-file-input">3. 尝试多文件选择（降级方案）</button>
+    <input type="file" id="file-input" multiple webkitdirectory style="display:none">
+    <div id="file-result" class="result"></div>
+    
+    <h2>UA 信息</h2>
+    <pre id="ua"></pre>
+    
+    <script>
+        document.getElementById('ua').textContent = navigator.userAgent;
+        
+        document.getElementById('check-api').addEventListener('click', () => {
+            const result = document.getElementById('api-result');
+            if ('showDirectoryPicker' in window) {
+                result.innerHTML = '<span class="ok">✅ 支持 showDirectoryPicker</span>';
+            } else {
+                result.innerHTML = '<span class="fail">❌ 不支持 showDirectoryPicker，需使用降级方案</span>';
+            }
+        });
+        
+        document.getElementById('try-picker').addEventListener('click', async () => {
+            const result = document.getElementById('picker-result');
+            if (!('showDirectoryPicker' in window)) {
+                result.innerHTML = '<span class="fail">❌ 当前浏览器不支持</span>';
+                return;
+            }
+            try {
+                const dirHandle = await window.showDirectoryPicker();
+                let files = [];
+                for await (const entry of dirHandle.values()) {
+                    if (entry.kind === 'file' && entry.name.endsWith('.md')) {
+                        files.push(entry.name);
+                    }
+                }
+                result.innerHTML = `<span class="ok">✅ 成功读取，发现 ${files.length} 个 Markdown 文件</span><pre>${files.join('\n')}</pre>`;
+            } catch (e) {
+                result.innerHTML = `<span class="fail">❌ 失败：${e.message}</span>`;
+            }
+        });
+        
+        const fileInput = document.getElementById('file-input');
+        document.getElementById('try-file-input').addEventListener('click', () => fileInput.click());
+        fileInput.addEventListener('change', (e) => {
+            const files = Array.from(e.target.files);
+            const mdFiles = files.filter(f => f.name.endsWith('.md'));
+            const result = document.getElementById('file-result');
+            result.innerHTML = `<span class="ok">✅ 选择成功，共 ${files.length} 个文件，其中 Markdown ${mdFiles.length} 个</span><pre>${mdFiles.map(f => f.name).join('\n')}</pre>`;
+        });
+    </script>
+</body>
+</html>

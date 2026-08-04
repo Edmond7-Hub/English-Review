@@ -1,0 +1,10 @@
+# 开发环境
+.DS_Store
+*.log
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 临时文件
+replace_app.sh
