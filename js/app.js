@@ -8,16 +8,19 @@ const App = {
     todayStats: { correct: 0, wrong: 0 },
 
     async init() {
-        await Storage.init();
-        this.settings = await Storage.getSettings();
-        this.items = await Storage.getAll('items');
-        this.records = await Storage.getAll('reviewRecords');
-        this.mistakes = await Storage.getAll('mistakeRecords');
-        TTS.init();
-        this.bindEvents();
-        this.updateHomeScreen();
+        try {
+            await Storage.init();
+            this.settings = await Storage.getSettings();
+            this.items = await Storage.getAll('items');
+            this.records = await Storage.getAll('reviewRecords');
+            this.mistakes = await Storage.getAll('mistakeRecords');
+            TTS.init();
+            this.bindEvents();
+            this.updateHomeScreen();
+        } catch (err) {
+            console.error('App.init failed', err);
+        }
         this.showScreen('loading-screen');
-
         setTimeout(() => {
             this.showScreen('main-screen');
         }, 1500);
@@ -53,12 +56,13 @@ const App = {
 
     showScreen(id) {
         document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-        document.getElementById(id).classList.add('active');
+        const el = document.getElementById(id);
+        if (el) el.classList.add('active');
     },
 
     updateHomeScreen() {
         const dueCount = this.getDueItems().length;
-        const todayTotal = Math.min(dueCount + parseInt(this.settings.dailyNewItemLimit), this.items.length);
+        const todayTotal = Math.min(dueCount + parseInt(this.settings.dailyNewItemLimit || 10), Math.max(this.items.length, 1));
         document.getElementById('today-count').textContent = Math.min(dueCount, todayTotal);
         document.getElementById('today-total').textContent = todayTotal;
         document.getElementById('streak-days').textContent = this.calculateStreak();
@@ -79,22 +83,31 @@ const App = {
     },
 
     calculateStreak() {
-        const logs = [];
-        const today = new Date().toISOString().split('T')[0];
-        if (logs.length === 0) return 0;
-        return 3;
+        return 0;
     },
 
     async startStudy() {
-        const dueItems = this.getDueItems();
-        const newItems = this.items
-            .filter(i => !this.records.find(r => r.itemId === i.id))
-            .slice(0, parseInt(this.settings.dailyNewItemLimit));
+        if (this.items.length === 0) {
+            alert('还没有学习素材，请先点击“刷新素材”导入 Markdown 文件。');
+            return;
+        }
 
-        const planItems = [...dueItems, ...newItems].slice(0, Math.floor(this.settings.dailyDurationMinutes / 1.5));
+        const dueItems = this.getDueItems();
+        const reviewedIds = new Set(this.records.map(r => r.itemId));
+        const newItems = this.items
+            .filter(i => !reviewedIds.has(i.id))
+            .slice(0, parseInt(this.settings.dailyNewItemLimit || 10));
+
+        const planItems = [...dueItems, ...newItems].slice(0, Math.max(1, Math.floor((this.settings.dailyDurationMinutes || 35) / 1.5)));
         this.currentPlan = Questions.generate(planItems, planItems.length);
         this.currentIndex = 0;
         this.todayStats = { correct: 0, wrong: 0 };
+
+        if (this.currentPlan.length === 0) {
+            alert('今天没有需要复习的内容，太棒了！');
+            return;
+        }
+
         this.showScreen('study-screen');
         this.renderQuestion();
     },
@@ -112,10 +125,10 @@ const App = {
         const card = document.getElementById('question-card');
         card.innerHTML = `
             <div class="question-type">${q.type === 'word-meaning' ? '词义选择' : '单词选择'}</div>
-            <h2>${q.prompt}</h2>
-            ${q.promptSub ? `<div class="phonetic">${q.promptSub}</div>` : ''}
+            <h2>${this.escapeHtml(q.prompt)}</h2>
+            ${q.promptSub ? `<div class="phonetic">${this.escapeHtml(q.promptSub)}</div>` : ''}
             <div class="options">
-                ${q.options.map((opt, idx) => `<button class="option-btn" data-idx="${idx}">${opt}</button>`).join('')}
+                ${q.options.map((opt, idx) => `<button class="option-btn" data-idx="${idx}">${this.escapeHtml(opt)}</button>`).join('')}
             </div>
         `;
 
@@ -125,9 +138,16 @@ const App = {
 
         document.getElementById('feedback-panel').classList.add('hidden');
 
-        if (this.settings.autoPlayAudio) {
+        if (this.settings.autoPlayAudio && q.item && q.item.content && q.item.content.text) {
             TTS.speak(q.item.content.text, { settings: this.settings });
         }
+    },
+
+    escapeHtml(text) {
+        if (text == null) return '';
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
     },
 
     async handleAnswer(button, question) {
@@ -190,7 +210,7 @@ const App = {
         const rec = this.mistakes.find(m => m.itemId === itemId);
         if (!rec) return;
         rec.consecutiveCorrect += 1;
-        if (rec.consecutiveCorrect >= this.settings.masteryThreshold) {
+        if (rec.consecutiveCorrect >= (this.settings.masteryThreshold || 3)) {
             await Storage.delete('mistakeRecords', itemId);
             this.mistakes = this.mistakes.filter(m => m.itemId !== itemId);
         } else {
@@ -202,8 +222,8 @@ const App = {
         const panel = document.getElementById('feedback-panel');
         panel.classList.remove('hidden', 'correct', 'wrong');
         panel.classList.add(isCorrect ? 'correct' : 'wrong');
-        document.getElementById('feedback-text').textContent = isCorrect ? '答对啦！🎉' : '再想想哦～';
-        document.getElementById('feedback-explanation').textContent = question.explanation;
+        document.getElementById('feedback-text').textContent = isCorrect ? '答对啦！' : '再想想哦～';
+        document.getElementById('feedback-explanation').textContent = question.explanation || '';
 
         if (isCorrect) this.todayStats.correct++; else this.todayStats.wrong++;
     },
