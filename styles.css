@@ -97,6 +97,12 @@ button:active {
 .loading-dots span:nth-child(2) { animation-delay: 0.2s; }
 .loading-dots span:nth-child(3) { animation-delay: 0.4s; }
 
+.loading-version {
+    margin-top: 24px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 @keyframes dot {
     0%, 80%, 100% { transform: scale(0); }
     40% { transform: scale(1); }
