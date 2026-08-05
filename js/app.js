@@ -395,11 +395,19 @@ const App = {
         const input = document.getElementById('file-input');
         input.onchange = async (e) => {
             const files = Array.from(e.target.files).filter(f => f.name.endsWith('.md'));
-            if (files.length === 0) return;
-            const result = await Parser.refreshMaterials(files);
-            alert(`刷新完成！新增 ${result.added} 个，更新 ${result.updated} 个，归档 ${result.archived} 个`);
-            this.items = await Storage.getAll('items');
-            this.updateHomeScreen();
+            if (files.length === 0) {
+                alert('请选择 .md 文件');
+                return;
+            }
+            try {
+                const result = await Parser.refreshMaterials(files);
+                this.items = await Storage.getAll('items');
+                this.updateHomeScreen();
+                alert(`刷新完成！\n\n解析 ${result.total} 个知识点\n新增 ${result.added} 个\n更新 ${result.updated} 个\n归档 ${result.archived} 个\n\n当前知识库共 ${this.items.length} 个知识点`);
+            } catch (err) {
+                alert('刷新失败：' + err.message);
+                console.error(err);
+            }
         };
         input.click();
     },
