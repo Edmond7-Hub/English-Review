@@ -52,6 +52,8 @@ const App = {
         document.querySelectorAll('#settings-screen input, #settings-screen select').forEach(el => {
             el.addEventListener('change', () => this.saveSettings());
         });
+
+        document.getElementById('clear-cache-btn')?.addEventListener('click', () => this.clearCacheAndReload());
     },
 
     showScreen(id) {
@@ -415,6 +417,18 @@ const App = {
 
     importBackup() {
         document.getElementById('import-input').click();
+    },
+
+    async clearCacheAndReload() {
+        if ('serviceWorker' in navigator) {
+            const registrations = await navigator.serviceWorker.getRegistrations();
+            await Promise.all(registrations.map(r => r.unregister()));
+        }
+        if ('caches' in window) {
+            const names = await caches.keys();
+            await Promise.all(names.map(name => caches.delete(name)));
+        }
+        window.location.reload();
     },
 
     async handleImport(e) {
