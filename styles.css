@@ -337,6 +337,80 @@ button:active {
     color: var(--danger);
 }
 
+/* Review Cards */
+.review-card {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.review-word {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 12px;
+}
+
+.review-phonetic {
+    font-size: 22px;
+    color: var(--text-light);
+    margin-bottom: 12px;
+}
+
+.review-pos {
+    display: inline-block;
+    padding: 4px 12px;
+    background: var(--bg);
+    border-radius: 8px;
+    font-size: 14px;
+    color: var(--text-light);
+    margin-bottom: 16px;
+}
+
+.review-meaning {
+    font-size: 28px;
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+.review-example {
+    font-size: 18px;
+    color: var(--text-light);
+    background: var(--bg);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.review-hint {
+    font-size: 14px;
+    color: var(--text-light);
+    margin-top: 30px;
+}
+
+.spelling-input {
+    width: 100%;
+    padding: 16px;
+    font-size: 20px;
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.spelling-result {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.spelling-result.correct {
+    color: var(--success);
+}
+
+.spelling-result.wrong {
+    color: var(--danger);
+}
+
 /* Feedback Panel */
 .feedback-panel {
     position: fixed;

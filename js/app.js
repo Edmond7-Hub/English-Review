@@ -99,7 +99,8 @@ const App = {
             .slice(0, parseInt(this.settings.dailyNewItemLimit || 10));
 
         const planItems = [...dueItems, ...newItems].slice(0, Math.max(1, Math.floor((this.settings.dailyDurationMinutes || 35) / 1.5)));
-        this.currentPlan = Questions.generate(planItems, planItems.length);
+        const grammarItems = this.items.filter(i => i.type === 'grammar' || i.section === 'Grammar').slice(0, 3);
+        this.currentPlan = Questions.generate(planItems, grammarItems, planItems.length);
         this.currentIndex = 0;
         this.todayStats = { correct: 0, wrong: 0 };
 
@@ -123,24 +124,123 @@ const App = {
         document.getElementById('study-progress-bar').style.width = `${(this.currentIndex / this.currentPlan.length) * 100}%`;
 
         const card = document.getElementById('question-card');
-        card.innerHTML = `
-            <div class="question-type">${q.type === 'word-meaning' ? '词义选择' : '单词选择'}</div>
-            <h2>${this.escapeHtml(q.prompt)}</h2>
-            ${q.promptSub ? `<div class="phonetic">${this.escapeHtml(q.promptSub)}</div>` : ''}
-            <div class="options">
-                ${q.options.map((opt, idx) => `<button class="option-btn" data-idx="${idx}">${this.escapeHtml(opt)}</button>`).join('')}
-            </div>
-        `;
 
-        card.querySelectorAll('.option-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => this.handleAnswer(e.target, q));
-        });
+        if (q.mode === 'review') {
+            if (q.type === 'word-card') {
+                this.renderWordCard(card, q.item);
+            } else if (q.type === 'grammar-card') {
+                this.renderGrammarCard(card, q.item);
+            }
+        } else {
+            this.renderQuiz(card, q);
+        }
 
         document.getElementById('feedback-panel').classList.add('hidden');
+    },
+
+    renderWordCard(card, item) {
+        const text = item.content?.text || '';
+        const phonetic = item.content?.phonetic || '';
+        const meaning = item.content?.meaning || '';
+        const partOfSpeech = item.content?.partOfSpeech || '';
+
+        card.innerHTML = `
+            <div class="question-type"> 学习新词</div>
+            <div class="review-card">
+                <div class="review-word">${this.escapeHtml(text)}</div>
+                <div class="review-phonetic">${this.escapeHtml(phonetic)}</div>
+                <div class="review-pos">${this.escapeHtml(partOfSpeech)}</div>
+                <div class="review-meaning">${this.escapeHtml(meaning)}</div>
+            </div>
+            <div class="review-hint">点击“下一题”进入练习</div>
+        `;
+
+        if (this.settings.autoPlayAudio && text) {
+            TTS.speak(text, { settings: this.settings });
+        }
+
+        // 点击任意位置也能进入下一题
+        card.onclick = () => this.nextQuestion();
+    },
+
+    renderGrammarCard(card, item) {
+        const text = item.content?.text || '';
+        const meaning = item.content?.meaning || '';
+        const example = item.content?.example || '';
+
+        card.innerHTML = `
+            <div class="question-type">📖 语法点</div>
+            <div class="review-card">
+                <div class="review-word">${this.escapeHtml(text)}</div>
+                <div class="review-meaning">${this.escapeHtml(meaning)}</div>
+                ${example ? `<div class="review-example">${this.escapeHtml(example)}</div>` : ''}
+            </div>
+            <div class="review-hint">点击“下一题”继续</div>
+        `;
+
+        card.onclick = () => this.nextQuestion();
+    },
+
+    renderQuiz(card, q) {
+        let optionsHtml = '';
+        if (q.type === 'spelling') {
+            optionsHtml = `
+                <input type="text" id="spelling-input" class="spelling-input" placeholder="请输入完整单词" autocomplete="off">
+                <button class="primary-btn submit-spelling">提交</button>
+            `;
+        } else {
+            optionsHtml = `<div class="options">
+                ${q.options.map((opt, idx) => `<button class="option-btn" data-idx="${idx}">${this.escapeHtml(opt)}</button>`).join('')}
+            </div>`;
+        }
+
+        card.innerHTML = `
+            <div class="question-type">${this.getTypeLabel(q.type)}</div>
+            <h2>${this.escapeHtml(q.prompt)}</h2>
+            ${q.promptSub ? `<div class="phonetic">${this.escapeHtml(q.promptSub)}</div>` : ''}
+            ${optionsHtml}
+        `;
+
+        if (q.type === 'spelling') {
+            card.querySelector('.submit-spelling').addEventListener('click', () => {
+                const input = card.querySelector('#spelling-input');
+                this.handleSpelling(input.value, q);
+            });
+            card.querySelector('#spelling-input').addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    this.handleSpelling(e.target.value, q);
+                }
+            });
+        } else {
+            card.querySelectorAll('.option-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => this.handleAnswer(e.target, q));
+            });
+        }
 
         if (this.settings.autoPlayAudio && q.item && q.item.content && q.item.content.text) {
             TTS.speak(q.item.content.text, { settings: this.settings });
         }
+    },
+
+    getTypeLabel(type) {
+        const labels = {
+            'word-meaning': '词义选择',
+            'meaning-word': '单词选择',
+            'picture-choice': '图文匹配',
+            'spelling': '拼写补全',
+            'fill-blank': '选择填空',
+            'true-false': '判断对错'
+        };
+        return labels[type] || '练习';
+    },
+
+    handleSpelling(value, question) {
+        const userAnswer = value.trim().toLowerCase();
+        const isCorrect = userAnswer === question.answer.toLowerCase();
+        const card = document.getElementById('question-card');
+        card.innerHTML += `<div class="spelling-result ${isCorrect ? 'correct' : 'wrong'}">你的答案：${this.escapeHtml(value)}</div>`;
+        this.recordResult(question, isCorrect);
+        this.showFeedback(isCorrect, question);
     },
 
     escapeHtml(text) {
